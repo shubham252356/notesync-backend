@@ -3,9 +3,9 @@ spring:
     name: notesync-backend
 
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/notesync}
-    username: ${DB_USERNAME:notesync}
-    password: ${DB_PASSWORD:notesync}
+    url: jdbc:postgresql://localhost:5432/NoteSync-Local
+    username: postgres
+    password: root
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
@@ -28,14 +28,14 @@ spring:
     enabled: true
     locations: classpath:db/migration
     baseline-on-migrate: false
-
+ 
   jackson:
     serialization:
       write-dates-as-timestamps: false
     default-property-inclusion: non_null
 
 server:
-  port: ${SERVER_PORT:8080}
+  port: 8080
   error:
     include-message: never
     include-stacktrace: never

@@ -1,8 +1,21 @@
+# Maven
 target/
 *.class
 *.jar
 !target/notesync-backend-*.jar
-.DS_Store
+
+# IDE
 .idea/
 *.iml
+
+# OS
+.DS_Store
+
+# Maven wrapper
 .mvn/timing.properties
+
+# Logs
+*.log
+
+# Env
+.env
