@@ -31,6 +31,9 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
+            // CSRF protection is intentionally disabled: this API is stateless and uses
+            // JWT Bearer tokens (not cookies) for authentication, so CSRF attacks are
+            // not applicable. See https://docs.spring.io/spring-security/reference/features/exploits/csrf.html
             .csrf(AbstractHttpConfigurer::disable)
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/auth/**").permitAll()

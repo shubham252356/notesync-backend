@@ -1,4 +1,4 @@
-package com.notesync.backend.collaboration.config;
+package com.notesync.backend.collaboration.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.handler.annotation.DestinationVariable;

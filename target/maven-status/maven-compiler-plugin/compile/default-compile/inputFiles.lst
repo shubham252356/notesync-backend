@@ -13,6 +13,7 @@
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/collaboration/config/WebSocketConfig.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/auth/dto/RegisterRequest.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/sharing/entity/Permission.java
+/home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/collaboration/controller/CollaborationController.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/common/repository/UserRepository.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/sharing/entity/NoteShare.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/auth/dto/LoginRequest.java
@@ -25,7 +26,6 @@
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/common/config/SecurityConfig.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/common/security/JwtAuthenticationFilter.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/notes/service/NoteService.java
-/home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/collaboration/config/CollaborationController.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/sharing/dto/ShareResponse.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/common/dto/UserDto.java
 /home/runner/work/NOTESYNC-backend/NOTESYNC-backend/src/main/java/com/notesync/backend/sharing/controller/SharingController.java

@@ -116,7 +116,7 @@ public class NoteService {
                 .orElseThrow(() -> new ResourceNotFoundException("User not found: " + username));
     }
 
-    public NoteResponse toResponse(Note note) {
+    private NoteResponse toResponse(Note note) {
         return NoteResponse.builder()
                 .id(note.getId())
                 .title(note.getTitle())

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.notesync.backend.notes.service.NoteServiceTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.255 s -- in com.notesync.backend.notes.service.NoteServiceTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s -- in com.notesync.backend.notes.service.NoteServiceTest
