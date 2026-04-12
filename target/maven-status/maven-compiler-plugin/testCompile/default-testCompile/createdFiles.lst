@@ -1,0 +1,3 @@
+com/notesync/backend/auth/service/AuthServiceTest.class
+com/notesync/backend/notes/service/NoteServiceTest.class
+com/notesync/backend/common/TestcontainersConfig.class
